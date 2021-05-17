@@ -1,0 +1,118 @@
+:root {
+  --white-color: #ffffff;
+  --progress-color: #b12727;
+  --track-color: #ffbaa4;
+  --bg-color: #70311f;
+  --play-color: #f2f2f2;
+  --body-bg-color: #e5e5e5;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: var(--body-bg-color);
+  padding: 0 15px;
+}
+
+.music-player {
+  max-width: 354px;
+  width: 100%;
+  background-color: var(--bg-color);
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.music-player__cover {
+  min-height: 354px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.music-player__cover img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.music-player__info {
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 15px 60px;
+}
+
+.audio-info {
+  margin-bottom: 25px;
+}
+
+.audio-info__name {
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--white-color);
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.audio-info__artist {
+  display: block;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.68);
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+.audio-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 43px;
+}
+
+.audio-controls button {
+  min-width: 54px;
+  min-height: 54px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #6e301e;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.25), -3px -8px 8px rgba(255, 255, 255, 0.1);
+}
+
+.audio-controls button:not(:last-child) {
+  margin-right: 52px;
+}
+
+#play {
+  min-width: 72px;
+  min-height: 72px;
+  color: var(--play-color);
+}
+
+.audio-progress {
+  min-height: 3px;
+  max-width: 274px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: var(--progress-color);
+}
+
+.audio-progress span {
+  width: 66px;
+  min-height: 3px;
+  border-radius: 3px;
+  background-color: var(--track-color);
+}
