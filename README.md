@@ -6,6 +6,7 @@ ___
 
 #### :link: Live Demo: 
 [Cursor Music player app](https://vlad-yermolayev.github.io/cursor-music-player-app/)
+
 [Design](https://t.me/assedo_studio_templates/73)
 ___
 
@@ -16,7 +17,6 @@ ___
 * CSS
 * methodology [BEM](https://en.bem.info/)
 * JavaScript
-
 ___
 
 #### :envelope: Contacts
