@@ -6,7 +6,7 @@ ___
 
 #### :link: Live Demo: 
 [Cursor Music player app](https://vlad-yermolayev.github.io/cursor-music-player-app/)
-* [Design template](https://t.me/assedo_studio_templates/73)
+[Design](https://t.me/assedo_studio_templates/73)
 ___
 
 #### :rocket: Technologies Used
