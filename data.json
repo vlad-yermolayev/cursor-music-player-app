@@ -1,0 +1,16 @@
+{
+  "audio": [
+    {
+      "audioName": "Borderline",
+      "audioArtist": "Tame Impala",
+      "audioCover": "img/borderline.jpg",
+      "audioFile": "audio/borderline-tame-impala.mp3"
+    },
+    {
+      "audioName": "Patience",
+      "audioArtist": "Tame Impala",
+      "audioCover": "img/patience.jpg",
+      "audioFile": "audio/patience-tame-impala.mp3"
+    }
+  ]
+}

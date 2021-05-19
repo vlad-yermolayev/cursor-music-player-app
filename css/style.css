@@ -36,6 +36,7 @@ body {
   min-height: 354px;
   border-radius: 40px;
   overflow: hidden;
+  filter: drop-shadow(0px 30px 50px rgba(46, 10, 3, 0.88));
 }
 
 .music-player__cover img {
@@ -44,6 +45,7 @@ body {
 }
 
 .music-player__info {
+  position: relative;
   min-height: 320px;
   display: flex;
   flex-direction: column;
@@ -106,6 +108,7 @@ body {
   width: 100%;
   display: flex;
   margin: 0 auto;
+  cursor: pointer;
   border-radius: 3px;
   background-color: var(--progress-color);
 }
