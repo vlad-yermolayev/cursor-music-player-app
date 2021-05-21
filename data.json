@@ -3,14 +3,32 @@
     {
       "audioName": "Borderline",
       "audioArtist": "Tame Impala",
-      "audioCover": "img/borderline.jpg",
-      "audioFile": "audio/borderline-tame-impala.mp3"
+      "audioCover": "img/tame-impala-borderline.jpg",
+      "audioFile": "audio/tame-impala-borderline.mp3"
     },
     {
       "audioName": "Patience",
       "audioArtist": "Tame Impala",
-      "audioCover": "img/patience.jpg",
-      "audioFile": "audio/patience-tame-impala.mp3"
+      "audioCover": "img/tame-impala-patience.jpg",
+      "audioFile": "audio/tame-impala-patience.mp3"
+    },
+    {
+      "audioName": "Hard For Me",
+      "audioArtist": "Michele Morrone",
+      "audioCover": "img/michele-morrone-hard-for-me.jpg",
+      "audioFile": "audio/michele-morrone-hard-for-me.mp3"
+    },
+    {
+      "audioName": "Watch Me Burn",
+      "audioArtist": "Michele Morrone",
+      "audioCover": "img/michele-morrone-watch-me-burn.jpg",
+      "audioFile": "audio/michele-morrone-watch-me-burn.mp3"
+    },
+    {
+      "audioName": "Feel It",
+      "audioArtist": "Michele Morrone",
+      "audioCover": "img/michele-morrone-feel-it.jpg",
+      "audioFile": "audio/michele-morrone-feel-it.mp3"
     }
   ]
 }
