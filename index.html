@@ -15,6 +15,36 @@
   <div class="music-player">
     <div class="music-player__cover">
       <img src="img/borderline.jpg" alt="Cover for Borderline">
+      <div class="audio-playlist">
+        <button class="audio-playlist__button">
+          <i class="fas fa-music"></i>
+        </button>
+        <ul class="audio-playlist__list">
+          <li>
+            <div>
+              <span class="track-animation">
+                <i></i>
+                <i></i>
+                <i></i>
+              </span>
+              <h4>Tame Impala - Borderline</h4>
+            </div>
+            <span class="track-duration">03:45</span>
+          </li>
+          <li>
+            <h4>Tame Impala - Patience</h4>
+            <span>01:30</span>
+          </li>
+          <li>
+            <h4>Michele Morrone - Hard For Me</h4>
+            <span>03:20</span>
+          </li>
+          <li>
+            <h4>Michele Morrone - Feel It</h4>
+            <span>03:00</span>
+          </li>
+        </ul>
+      </div>
     </div>
     <audio class="music-player__audio" src="audio/borderline-tame-impala.mp3"></audio>
     <div class="music-player__info">
@@ -34,7 +64,10 @@
         </button>
       </div>
       <div class="audio-progress">
-        <span style="width: 0;"></span>
+        <div class="audio-progress__track">
+          <span style="width: 0;"></span>
+        </div>
+        <span class="audio-progress__duration">00:00</span>
       </div>
     </div>
   </div>
