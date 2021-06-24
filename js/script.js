@@ -12,7 +12,7 @@ const FORWARD_BTN = document.getElementById('forward');
 const AUDIO_TRACK = MUSIC_PLAYER.querySelector('.audio-progress__track');
 const AUDIO_TRACK_DURATION = MUSIC_PLAYER.querySelector('.audio-progress__duration');
 const AUDIO_TRACK_PLAYED = AUDIO_TRACK.querySelector('span');
-const REQUEST_URL = '../data.json';
+const REQUEST_URL = 'data.json';
 
 let audioIndex = 0;
 
