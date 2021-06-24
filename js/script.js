@@ -91,13 +91,9 @@ const renderData = data => {
     const AUDIO_CURRENT_TIME = e.target.currentTime;
     const AUDIO_PROGRESS = (AUDIO_CURRENT_TIME / AUDIO_DURATION) * 100;
     AUDIO_TRACK_PLAYED.style.width = `${AUDIO_PROGRESS}%`;
-
     const CONVERTED_DURATION = formatTime(AUDIO_DURATION);
     const CONVERTED_CURRENT_TIME = formatTime(AUDIO_CURRENT_TIME);
     AUDIO_TRACK_DURATION.textContent = `${CONVERTED_CURRENT_TIME}/${CONVERTED_DURATION}`;
-    console.log('Duration: ',CONVERTED_DURATION);
-    console.log('Current time: ', CONVERTED_CURRENT_TIME);
-
   });
 
   AUDIO_TRACK.addEventListener('click', (e) => {
@@ -105,7 +101,6 @@ const renderData = data => {
     const CLICK_X = e.offsetX;
     const AUDIO_DURATION = AUDIO.duration;
     AUDIO.currentTime = (CLICK_X / AUDIO_TRACK_WIDTH) * AUDIO_DURATION;
-
     const IS_PLAYING = MUSIC_PLAYER.classList.contains('music-player--play');
 
     if (!IS_PLAYING) {
@@ -129,7 +124,6 @@ function playAudio() {
   MUSIC_PLAYER.classList.add('music-player--play');
   PLAY_BTN.querySelector('i.fas').classList.remove('fa-play');
   PLAY_BTN.querySelector('i.fas').classList.add('fa-pause');
-
   AUDIO.play();
 }
 
@@ -137,7 +131,6 @@ function pauseAudio() {
   MUSIC_PLAYER.classList.remove('music-player--play');
   PLAY_BTN.querySelector('i.fas').classList.add('fa-play');
   PLAY_BTN.querySelector('i.fas').classList.remove('fa-pause');
-  
   AUDIO.pause();
 }
 
